@@ -71,3 +71,15 @@
   top: 50%;
   z-index: 1;
 }
+
+.homestead-pros-list > li::before {
+  content: '✓';
+  padding-right: 5px;
+  color: green
+}
+
+.homestead-cons-list > li::before {
+  content: '✗';
+  padding-right: 5px;
+  color: red
+}
