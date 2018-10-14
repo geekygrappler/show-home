@@ -1,0 +1,15 @@
+{
+  "name": "show-home",
+  "version": "1.0.0",
+  "description": "Static Marketing Website for Homestead",
+  "main": "index.js",
+  "scripts": {
+    "build-styles": "./node_modules/.bin/tailwind build css/styles.css -c ./css/tailwind.js -o ./css/built.css"
+  },
+  "author": "Andy Brown & Nick Angeli",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^0.6.6"
+  }
+}
