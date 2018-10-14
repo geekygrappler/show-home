@@ -6280,9 +6280,19 @@ table {
   * @import "utilities/skew-transforms";
   */
 
-.heelo {
-  background: red;
+/* .hr::before {
+  content: '';
+  width: 50px;
+  height: 1px;
+  background-color: aliceblue;
+  position: absolute;
+  left: 0;
+  display: block;
 }
+
+.hr {
+  position: relative;
+} */
 
 @media (min-width: 576px) {
   .sm\:list-reset {
