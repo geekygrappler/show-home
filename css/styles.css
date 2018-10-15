@@ -83,3 +83,7 @@
   padding-right: 5px;
   color: red
 }
+
+.min-w-250 {
+  min-width: 250px;
+}
